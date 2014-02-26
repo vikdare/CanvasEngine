@@ -9,9 +9,10 @@ canvas.Scene.New({
 
     materials: {
         images: {
-            "black_box": "images/black.png",
-            "green_box": "images/green.png",
-            "silver_box": "images/silver.png"
+            "lift_lb": "images/lift_lb.png",
+            "black_box": "images/first.png",
+            "green_box": "images/third.png",
+            "silver_box": "images/second.png"
         }
     },
     
@@ -45,9 +46,9 @@ canvas.Scene.New({
             return entity;
         }
         
-//        this.box1 = _black(0, 0);
-//        this.box3 = _green(0, 0);
-        this.box2 = _silver(0, 0);
+        this.box1 = _black(0, 0);
+        this.box3 = _green(1283, 0);
+        this.box2 = _silver(642, 0);
         //this.box2 = _entity(200, 50);
         
     },
